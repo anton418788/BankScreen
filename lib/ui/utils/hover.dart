@@ -32,7 +32,7 @@ class _HoverBuilderState extends State<HoverBuilder> {
         onPressed: () {},
         style: TextButton.styleFrom(
           foregroundColor:
-          _isHovered ? Colors.transparent : widget.foregroundColor,
+              _isHovered ? Colors.transparent : widget.foregroundColor,
           minimumSize: Size.zero,
           padding: widget.paddingSize,
           shape: widget.shape ?? const CircleBorder(),
